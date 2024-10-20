@@ -105,10 +105,10 @@ npm install cypress --save-dev
 2. Open Cypress test runner:
 
 ```bash
-npx cypress open
+npm run cypress-open
 ```
 
-3. Add your E2E tests in the `cypress/integration/` folder.
+3. Open tasks.spec.js script (Delete all tasks before start if you check before in localhost)
 
 ---
 
@@ -126,7 +126,7 @@ node server/index.js
 npm run dev
 ```
 
-The application will be available at `http://localhost:3000`.
+The application will be available at `http://localhost:3005`. I fix the port to have total compatibility with cypress tests.
 
 ---
 
